@@ -90,6 +90,7 @@ body{font-size:16px;}
 
 @media print {
   * { background: transparent !important; color: black !important; filter:none !important; -ms-filter: none !important; }
+  body{font-size:12pt; max-width:100%;}
   a, a:visited { text-decoration: underline; }
   hr { height: 1px; }
   a[href]:after { content: " (" attr(href) ")"; }
