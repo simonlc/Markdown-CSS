@@ -21,7 +21,6 @@ Also included is a printing media query. It has not been tested yet, and mainly 
 
 ## Credits
 - [HTML5 Boilerplate](http://h5bp.com) - For normalize.css and media queries.
-- [Markdown.css](http://kevinburke.bitbucket.org/markdowncss) - For inspiration.
 - Various other web resources for inspiration.
 
 ## License
