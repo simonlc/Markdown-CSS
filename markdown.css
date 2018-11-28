@@ -264,7 +264,10 @@ td {
     content: "";
   }
 
-  pre, code, kbd, samp {
+  pre,
+  code,
+  kbd,
+  samp {
     color: #001;
     font-family: monospace, monospace;
     _font-family: 'courier new', monospace;
