@@ -237,38 +237,38 @@ td {
     padding: 1em;
     margin: auto;
     background: #fefefe;
-  } 
+  }
 
-  a, 
+  a,
   a:visited {
     text-decoration: underline;
-  } 
+  }
 
   hr {
     height: 1px;
     border: 0;
     border-bottom: 1px solid black;
-  } 
+  }
 
   a[href]:after {
     content: " (" attr(href) ")";
-  } 
+  }
 
   abbr[title]:after {
     content: " (" attr(title) ")";
-  } 
+  }
 
   .ir a:after, 
   a[href^="javascript:"]:after, 
   a[href^="#"]:after {
     content: "";
-  } 
+  }
 
   pre, code, kbd, samp {
     color: #001;
     font-family: monospace, monospace;
     _font-family: 'courier new', monospace;
-  } 
+  }
 
   pre {
     background: #fdfaf5;
@@ -278,38 +278,40 @@ td {
     word-wrap: break-word;
     padding-left: 0.5em;
     padding-right: 0.5em;
-  } 
+  }
 
   blockquote {
     color: #666666;
     margin: 0;
     padding-left: 3em;
     border-left: 0.5em #EEE solid;
-  } 
+  }
 
   tr, img {
     page-break-inside: avoid;
-  } 
+  }
 
   img {
     max-width: 100% !important;
-  } 
+  }
 
   @page :left {
     margin: 15mm 20mm 15mm 10mm;
-  } 
+  }
 
   @page :right {
     margin: 15mm 10mm 15mm 20mm;
-  } 
+  }
 
-  p, h2, h3 {
+  p,
+  h2,
+  h3 {
     orphans: 3;
     widows: 3;
-  } 
+  }
 
   h3, h2 {
     page-break-after: avoid;
-  } 
+  }
 
 }
