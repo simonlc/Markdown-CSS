@@ -224,15 +224,19 @@ td {
 
 @media print {
   * {
-    background: transparent !important;
-    color: black !important;
-    filter: none !important;
-    -ms-filter: none !important;
+      filter: none !important;
+      -ms-filter: none !important;
   }
 
   body {
-    font-size: 12pt;
+    color: #444;
     max-width: 100%;
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+    font-size: 12pt;
+    line-height:1.5;
+    padding: 1em;
+    margin: auto;
+    background: #fefefe;
   }
 
   a,
@@ -254,17 +258,36 @@ td {
     content: " (" attr(title) ")";
   }
 
-  .ir a:after,
-  a[href^="javascript:"]:after,
+  .ir a:after, 
+  a[href^="javascript:"]:after, 
   a[href^="#"]:after {
     content: "";
   }
 
   pre,
+  code,
+  kbd,
+  samp {
+    color: #001;
+    font-family: monospace, monospace;
+    _font-family: 'courier new', monospace;
+  }
+
+  pre {
+    background: #fdfaf5;
+    font-size: 11pt;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
   blockquote {
-    border: 1px solid #999;
-    padding-right: 1em;
-    page-break-inside: avoid;
+    color: #666666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #EEE solid;
   }
 
   tr,
@@ -291,8 +314,9 @@ td {
     widows: 3;
   }
 
-  h2,
-  h3 {
+  h3,
+  h2 {
     page-break-after: avoid;
   }
+
 }
