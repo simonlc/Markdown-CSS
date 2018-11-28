@@ -287,7 +287,8 @@ td {
     border-left: 0.5em #EEE solid;
   }
 
-  tr, img {
+  tr,
+  img {
     page-break-inside: avoid;
   }
 
@@ -310,7 +311,8 @@ td {
     widows: 3;
   }
 
-  h3, h2 {
+  h3,
+  h2 {
     page-break-after: avoid;
   }
 
