@@ -8,7 +8,7 @@ View the live preview here: http://simon.lc/sites/markdown/.
 
 Add this to the top of your markdown file
 ```
-<link href="/path/to/markdown.css" rel="stylesheet"></link>
+<link href="/path/to/markdown.css" rel="stylesheet">
 ```
 ### Editing
 With Markdown CSS, I decided to base all the size off the body font-size. Simply changing the body font size will also change the heading's size, body width, etc.
